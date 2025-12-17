@@ -42,18 +42,3 @@ Tài khoản được quản lý bởi **cha/mẹ hoặc người giám hộ**.
 Tài khoản VIETKIDS là tính năng mô phỏng trong dự án ý tưởng.  
 Không thực hiện giao dịch tài chính thật.
 ---
-
-## Xác minh khuôn mặt (Face Verification)
-
-Ngoài việc xác minh bằng giấy tờ (CCCD/hồ sơ), Vietlim Bank áp dụng
-**xác minh khuôn mặt** nhằm tăng độ an toàn và uy tín.
-
-### Mục đích
-1. Ngăn chặn việc trẻ nhỏ sử dụng giấy tờ của cha/mẹ để đăng ký khi chưa được phép
-2. Đảm bảo người đăng ký là đúng đối tượng
-3. Tăng mức độ tin cậy và an toàn cho hệ thống
-
-### Cách thức (mô phỏng)
-- Người đăng ký thực hiện quét khuôn mặt trực tiếp trên ứng dụng
-- Hệ thống đối chiếu khuôn mặt với hồ sơ đã cung cấp
-- Nếu khớp → hồ sơ được chuyển sang trạng thá
