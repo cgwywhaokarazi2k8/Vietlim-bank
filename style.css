@@ -86,3 +86,24 @@ body {
   font-size: 14px;
   opacity: 0.7;
 }
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form label {
+  margin-top: 12px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form input {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+}
+
+.status {
+  border-left: 5px solid gold;
+}
