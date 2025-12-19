@@ -1,15 +1,88 @@
-body {
-  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-  color: white;
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+* {
+  box-sizing: border-box;
 }
 
-h1 {
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER */
+.header {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.header h1 {
+  color: gold;
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+/* CONTAINER */
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* CARD */
+.card {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 25px;
+  margin-bottom: 25px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+.card h2 {
+  color: #6ee7b7;
+  margin-top: 0;
+}
+
+.card ul {
+  padding-left: 20px;
+}
+
+.card li {
+  margin: 8px 0;
+}
+
+/* CENTER */
+.center {
+  text-align: center;
+}
+
+/* BUTTON */
+.btn {
+  background: gold;
+  color: #000;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 8px;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.btn.outline {
+  background: transparent;
+  border: 2px solid gold;
   color: gold;
 }
 
-h2 {
-  color: #6ee7b7;
+/* FOOTER */
+.footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  opacity: 0.7;
 }
