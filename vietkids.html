@@ -2,44 +2,48 @@
 <html lang="vi">
 <head>
   <meta charset="UTF-8">
-  <title>Vietkids – Vietlim Bank</title>
+  <title>VietKids – Vietlim Bank</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header class="header">
-  <h1>Vietkids</h1>
-  <p>Tài khoản trẻ em – Vietlim Bank</p>
-</header>
+  <header class="header">
+    <h1>VietKids</h1>
+    <p>Tài khoản trẻ em – Vietlim Bank</p>
+  </header>
 
-<main class="container">
-  <section class="card">
-    <h2>Đăng ký tài khoản Vietkids</h2>
+  <main class="container">
 
-    <form class="form">
-      <label>Họ và tên trẻ</label>
-      <input type="text" placeholder="Nguyễn Văn A" required>
+    <section class="card">
+      <h2>Đăng ký VietKids</h2>
 
-      <label>Ngày sinh</label>
-      <input type="date" required>
+      <form class="form">
+        <label>Tên trẻ</label>
+        <input type="text" placeholder="Nguyễn Văn B">
 
-      <label>Hồ sơ / Giấy khai sinh</label>
-      <input type="file" required>
+        <label>Ngày sinh</label>
+        <input type="date">
 
-      <button type="submit" class="btn">Gửi hồ sơ</button>
-    </form>
-  </section>
+        <label>Giấy khai sinh / hồ sơ trẻ em</label>
+        <input type="file">
 
-  <section class="card status">
-    <h3>📌 Trạng thái</h3>
-    <p><b>Chờ duyệt</b></p>
-    <p>Hồ sơ sẽ được xét duyệt bởi Vietlim Bank.</p>
-  </section>
-</main>
+        <label>Xác minh khuôn mặt trẻ</label>
+        <input type="file">
 
-<footer class="footer">
-  <p>Dự án mang tính học tập – không phải ngân hàng thật.</p>
-</footer>
+        <button class="btn">Tạo tài khoản VietKids</button>
+      </form>
+    </section>
+
+    <section class="card center">
+      <p><i>Tài khoản được kích hoạt ngay sau khi đăng ký.</i></p>
+      <a href="index.html" class="btn outline">⬅ Quay về trang chủ</a>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    Dự án mang tính học tập – không phải ngân hàng thật.
+  </footer>
 
 </body>
 </html>
