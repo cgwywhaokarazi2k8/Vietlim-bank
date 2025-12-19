@@ -93,7 +93,7 @@ Upload giấy khai sinh
 
 Xác minh khuôn mặt (trẻ)
 
-Trạng thái: Chờ duyệt
+Trạng thái: Vào Liền
 
 🏠 MÀN HÌNH CHÍNH (HOME)
 
