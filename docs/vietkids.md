@@ -26,7 +26,7 @@ Tài khoản được quản lý bởi **cha/mẹ hoặc người giám hộ**.
 ---
 
 ## Trạng thái
-- Sau khi gửi hồ sơ: **Chờ duyệt**
+- Sau khi gửi hồ sơ: **Vào Liền**
 - Khi được duyệt: Tài khoản Vietkids được kích hoạt
 
 ---
